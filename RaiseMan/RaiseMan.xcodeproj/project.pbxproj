@@ -19,6 +19,7 @@
 		7D0BDCA3182EDAE1005A4242 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0BDC7F182EDAE1005A4242 /* Cocoa.framework */; };
 		7D0BDCAB182EDAE1005A4242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0BDCA9182EDAE1005A4242 /* InfoPlist.strings */; };
 		7D0BDCAD182EDAE1005A4242 /* RaiseManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BDCAC182EDAE1005A4242 /* RaiseManTests.m */; };
+		7D0BDCB8182EDF66005A4242 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BDCB7182EDF66005A4242 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		7D0BDCA8182EDAE1005A4242 /* RaiseManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiseManTests-Info.plist"; sourceTree = "<group>"; };
 		7D0BDCAA182EDAE1005A4242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D0BDCAC182EDAE1005A4242 /* RaiseManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseManTests.m; sourceTree = "<group>"; };
+		7D0BDCB6182EDF66005A4242 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7D0BDCB7182EDF66005A4242 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				7D0BDC91182EDAE1005A4242 /* RMDocument.h */,
+				7D0BDCB6182EDF66005A4242 /* Person.h */,
+				7D0BDCB7182EDF66005A4242 /* Person.m */,
 				7D0BDC92182EDAE1005A4242 /* RMDocument.m */,
 				7D0BDC94182EDAE1005A4242 /* RMDocument.xib */,
 				7D0BDC97182EDAE1005A4242 /* MainMenu.xib */,
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0BDCB8182EDF66005A4242 /* Person.m in Sources */,
 				7D0BDC8C182EDAE1005A4242 /* main.m in Sources */,
 				7D0BDC93182EDAE1005A4242 /* RMDocument.m in Sources */,
 			);
@@ -477,6 +483,7 @@
 				7D0BDCB2182EDAE1005A4242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D0BDCB3182EDAE1005A4242 /* Build configuration list for PBXNativeTarget "RaiseManTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +492,7 @@
 				7D0BDCB5182EDAE1005A4242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
